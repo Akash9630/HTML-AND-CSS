@@ -1,0 +1,128 @@
+HTML is a markup language
+It is used to create webpages, user interface (look and feel)
+colour, background, paragraph, align,  
+
+Process to excute
+
+step 1 : write a code in Text Editor
+step 2 : Store it in a .html or .htm
+step 3 : Open it in a web browser
+
+
+In html code is written in HTML Elements or also called HTML Tags
+
+Tags is represented as <>
+Start Tag / Open Tag = <>
+End Tag/ close Tag = </>
+
+
+Basic HTML Tags - Every webpage creation
+
+How to write a comment in HTML?
+* <!-- COMMENT -->
+
+<HTML> HTML Tag - all the content should be written inbetween html tag
+<Head> Head Tag - scripting will be written inbetween the head tag. i.e client side scripting and server side scripting. To create dynamic webpages
+<Title> Title Tag - It should be written inbetween head tag.
+<body> BOdy Tag - whatever the text is written inbetween the body Tag will be displayed to user.
+
+Formatting Tags - Applied on Text 
+
+<h1><h2><h3><h4><h5><h6>  - Headings
+Larger             smaller
+
+<font> Font Tag - 3 attributes - Face, Size, Color 
+What is attributes? Its show additional feature
+Each Tag has its own attributes
+color is indicated in 3 color and hexadecimal format
+Red 00 to FF
+Green 00 to FF
+Blue 00 to FF
+for example color = #00 00 00 (It is white)
+color = #FF FF FF(It is black)
+combination gives different color
+color = #FF 00 00 (It is red)
+
+<font face = "Times New Roman" size = "25" color = "Red"> </font>
+
+<B> Bold Tag - all the text will be in bold
+<I> Italic Tag - 
+<u> Underline Tag -
+<q> Quotation Tag - " "
+<br> Break Row Tag - New line
+<Strike> Strike Tag - 
+<del> delete Tag - 
+<Strong> Strong Tag - Text will be bold
+<Small> Small tag - 
+<abbr> Abbreviation - It has one attribute i.e Title
+<dbo> data bidirectional override - It has one attribute i.e dir 
+ dir - ltr(Left to right) and rtl (right to left)
+
+<sub> Subscript - 
+<sup> Superscript - 
+
+<ol> Ordered list - we use numbers, Alphabet, roman numbers, small I
+<ul> unordered list - we use symbol like square, disc, circle and None.
+ 
+list item is common for both orderedlist and unorderedlist
+
+<li> List item
+
+Creating Table with Rowspan and colspan
+
+<table>
+<tr> tablerow
+<td> tabledata
+<th> tablehead
+
+colspan
+rowspan
+Boder
+
+
+<Img> Image Tag - It is used to display image on the screen
+It has attributes - src, alt, width, height, align, 
+<a> Anchor Tag - location or hyperlinks, Attributes - href, title, Target, 
+<Marquee> Marquee Tags - It is used to scroll the text from 
+left to right or right to left simply animated. 
+Attributes - 
+behaviour -
+Scroll (bydefault)- unidirectional means single direction
+Alternate - bidirectional means both directions it travel  
+bgcolor - Background color
+height - % or pixels
+loop - No.of times
+
+General purpose attributes
+It can be used in javascript
+Each and every tag it can be used
+
+ID - unique identity for the element
+class - represent an element but not unique
+title - tool tip for given data
+Style - applying css
+
+ 
+
+Registeration form 
+1. Text box
+2. Radio Button
+3. Check box
+4. Text Area
+5. Select
+6. Button
+
+
+
+Forms(Select, File upload, Button)
+
+Frames
+It is used to divide the web pages like top html / bottom html
+like rows, columns, left html, bottom left html, center html
+
+<Frameset> 
+attributes:
+rows
+cols
+border
+
